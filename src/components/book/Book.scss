@@ -9,9 +9,6 @@
     align-items: center;
     margin-left: 50%;
     transform: translateX(-50%);
-    // // overflow: hidden;
-    // padding-bottom: 60px;
-    // top: 50%;
 }
 .block_btn {
     z-index: 20;
@@ -58,10 +55,5 @@
     &.on {
         height: 34px;
         width: 34px;
-    }
-}
-.demo {
-    div {
-        height: 100%;
     }
 }
