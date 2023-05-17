@@ -6,10 +6,10 @@ import { fetchPages } from './store/pages/PagesSlice';
 
 function App() {
   const dispatch = useDispatch()
-  
+
   useEffect(() => {
     dispatch(fetchPages())
-  })
+  }, [dispatch])
 
   return <Book/>
 }
