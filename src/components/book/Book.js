@@ -75,7 +75,6 @@ const Book = () => {
                 onChangeOrientation={checkOrientation} 
                 maxShadowOpacity={0.5}
                 onChangeState={changeState}
-                className="demo"
                 >
                     <Page firstPage/>
                     {pages.map((item, index) => (
